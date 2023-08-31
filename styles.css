@@ -1,4 +1,18 @@
+@font-face {
+  font-family: "sourceSansPro-light";
+  src: url("./fonts/OpenSans_Condensed-Light.ttf");
+}
+@font-face {
+  font-family: "sourceSansPro-semibold";
+  src: url("./fonts/OpenSans_Condensed-Light.ttf");
+}
+@font-face {
+  font-family: "sourceSansPro-regular";
+  src: url("./fonts/OpenSans_Condensed-Light.ttf");
+}
+
 body {
   color: aquamarine;
   background-color: azure;
+  font-family: "sourceSansPro-light";
 }
