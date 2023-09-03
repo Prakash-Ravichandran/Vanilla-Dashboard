@@ -70,6 +70,13 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+  display: grid;
+  width: 96%;
+  margin: 0 auto;
+  grid-template-columns: 14rem auto 23rem;
+}
+
 a {
   color: var(--color-dark);
 }
@@ -129,4 +136,30 @@ b {
 }
 .warning {
   color: var(--color-warning);
+}
+
+aside {
+  height: 100vh;
+  background: gray;
+}
+
+aside .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  margin-top: 1.4rem;
+}
+
+aside .logo {
+  display: flex;
+  gap: 0.8rem;
+}
+
+aside .top img {
+  width: 2rem;
+  height: 2rem;
+}
+aside .close {
+  display: none;
 }
