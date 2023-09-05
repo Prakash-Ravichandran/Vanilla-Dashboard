@@ -230,6 +230,7 @@ aside .sidebar .message-count {
 
 main {
   margin-top: 1.4rem;
+  margin-left: 1.4rem;
 }
 
 main .date {
@@ -336,4 +337,9 @@ main .insights .progress .number {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+main .insights small {
+  margin-top: 1.3rem;
+  display: block;
 }
