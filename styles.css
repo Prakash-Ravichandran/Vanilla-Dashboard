@@ -371,3 +371,11 @@ main .recent-orders table td {
   border-bottom: 1px solid var(--color-light);
   color: var(--color-dark-variant);
 }
+
+main .recent-orders a {
+  text-align: center;
+  display: block;
+  margin-block: 1rem;
+  margin-inline: auto;
+  color: var(--color-primary);
+}
