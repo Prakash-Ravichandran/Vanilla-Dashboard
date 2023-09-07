@@ -28,7 +28,7 @@ body {
   --color-white: #fff;
   --color-info-dark: #7d8da1;
   --color-dark: #363949;
-  --color-light: #rgba(132, 139, 200, 0.18);
+  --color-light: #d8f4f9ac;
   --color-primary-variant: #677483;
   --color-dark-variant: #677483;
   --color-background: #f6f6f9;
@@ -350,7 +350,7 @@ main .recent-orders {
   margin-top: 2rem;
 }
 main .recent-orders h2 {
-  margin-top: 0.8rem;
+  margin-block: 0.8rem;
 }
 
 main .recent-orders table {
@@ -378,4 +378,74 @@ main .recent-orders a {
   margin-block: 1rem;
   margin-inline: auto;
   color: var(--color-primary);
+}
+
+/*  =============================== RIGHT ========================*/
+.right {
+  margin-top: 1.4rem;
+  margin-left: 1.4rem;
+}
+
+.right .top {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.right .top button {
+  display: none;
+}
+
+.right .theme-toggler {
+  background-color: var(--color-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.6rem;
+  width: 4.2rem;
+  cursor: pointer;
+  border-radius: var(--border-radius-1);
+}
+
+.right .theme-toggler span {
+  font-size: 1.2rem;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right .theme-toggler span.active {
+  background: var(--color-primary);
+  color: white;
+  border-radius: var(--border-radius-1);
+}
+.right .top .profile {
+  display: flex;
+  gap: 2rem;
+  text-align: right;
+}
+
+.right .recent-updates {
+  margin-top: 1rem;
+}
+.right .recent-updates h2 {
+  margin-bottom: 0.8rem;
+}
+.right .recent-updates .updates {
+  background: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--color-border-radius);
+  box-shadow: var(--box-shadow);
+  transition: all 300ms ease;
+}
+.right .recent-updates .updates {
+  box-shadow: none;
+}
+
+.right .recent-updates .updates .update {
+  display: grid;
+  grid-template-columns: 2.6rem auto;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
