@@ -512,3 +512,36 @@ main .recent-orders a {
 .right .sales-analytics .add-product div h3 {
   font-weight: 600;
 }
+
+/* ==========================MEDIA QUERIES - Big Tablet, Small laptops =================== */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 94%;
+    grid-template-columns: 7rem auto 23rem;
+  }
+
+  /* aside */
+  aside .logo h2 {
+    display: none;
+  }
+  aside .sidebar h3 {
+    display: none;
+  }
+  aside .sidebar a {
+    width: 5.6rem;
+  }
+  aside .sidebar a:last-child {
+    margin-top: 1.8rem;
+  }
+  /* main */
+  main .insights {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  main table tbody tr td:last-child,
+  main table tbody tr th,
+  td:first-child {
+    display: none;
+  }
+}
