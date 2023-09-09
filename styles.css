@@ -44,6 +44,16 @@ body {
   --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
+/* ===============DARk THEME Variables==============*/
+.dark-theme-variables {
+  --color-background: #181a1e;
+  --color-dark: #edeffd;
+  --color-white: #202528;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
 /* remove default*/
 * {
   margin: 0;
