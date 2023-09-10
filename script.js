@@ -6,12 +6,8 @@ const themeToggler = document.querySelector(".theme-toggler");
 
 menuBtn.addEventListener("click", () => {
   sideMenu.style.display = "block";
-  body.style.backgroundColor = "yellow";
-  body.style.opacity = 0.5;
 });
 closeBtn.addEventListener("click", () => {
-  body.style.backgroundColor = "none";
-  body.style.opacity = 1;
   sideMenu.style.display = "none";
 });
 
